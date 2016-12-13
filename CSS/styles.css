@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: solid 1px #2d3c49;
+}
+
+.header-title {
+    font-weight: 100;
+}
+
+.super-title {
+    font-size: 60px;
+}
+
+.featured-title {
+    color: #7d97ad;
+    padding-left: 20px;
+}
+
+.img-logo {
+    padding-top: 20px;
+}
+
+.featured-box {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 620px) {
+    .super-title {
+        font-size: 30px;
+    }
+}
