@@ -18,26 +18,28 @@
     <!--create a wrapper for the content-->
     <div class="container">
       <!--header section with logo and titles-->
-      <div id="header" class="row">
+      <header class="row">
         <div class="col-xs-2 col-sm-2 col-md-2">
-          <img class="img-responsive img-logo" src="img/udacity.svg" tag="udacity logo">
+          <img class="img-responsive img-logo" src="img/udacity.svg" alt="udacity logo">
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 text-right text-uppercase">
           <h1 class="header-title name-title">Jane Doette</h1>
           <h4 class="header-title">Front-end Ninja</h4>
         </div>
-      <!--line to separate header-->
+        <!--line to separate header from content-->
         <div class="col-md-12">
           <hr>
         </div>
-      </div>
+      </header>
       <!--main image-->
-      <div id="img-main" class="row">
+      <figure class="row">
         <div class="col-md-12">
           <img class="img-responsive" src="img/css.jpg"
+            sizes="100vw"
             srcset="img/css_large_1100w.jpg 1100w, img/css_medium_900w.jpg 900w, img/css_small_600w.jpg 600w"
-            tag="writing CSS code">
-      </div>
+            alt="writing CSS code">
+          </div>
+      </figure>
       <!--title for featured works-->
       <div class="row">
         <div class="col-md-12">
@@ -45,37 +47,37 @@
         </div>
       </div>
       <!--different apps with image, name, GitHub link and description text-->
-      <div id="featured-apps" class="row featured-box text-center">
-        <div class="col-xs-8 col-sm-4 col-md-4">
+      <section class="row featured-box text-center">
+        <article class="col-xs-8 col-sm-4 col-md-4">
           <img class="img-responsive center-block"
             src="img/appify_large_600w.jpg"
             sizes="(max-width: 767px) 80vw, (min-width: 768px) 33vw"
             srcset="img/appify_large_600w.jpg 600w, img/appify_small_300w.jpg 300w"
-            tag="appify">
+            alt="appify">
           <h3 class="text-uppercase">Appify</h3>
           <a href="https://github.com/udacity/Appify/">See me in GitHub</a>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat eu elit non tempus. Donec suscipit vel ipsum id viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-        <div class="col-xs-8 col-sm-4 col-md-4">
+        </article>
+        <article class="col-xs-8 col-sm-4 col-md-4">
           <img class="img-responsive center-block"
             src="img/sunflower_large_600w.jpg"
             sizes="(max-width: 767px) 80vw, (min-width: 768px) 33vw"
             srcset="img/sunflower_large_600w.jpg 600w, img/sunflower_small_300w.jpg 300w"
-            tag="sunflower">
+            alt="sunflower">
           <h3 class="text-uppercase">Sunflower</h3>
           <a href="https://github.com/udacity/Sunflower/">See me in GitHub</a>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non consectetur lorem, rhoncus fermentum quam. Nullam dignissim ex at nisl porta, a ultrices eros cursus. Nunc ante nulla, rutrum vitae.</p>
-        </div>
-        <div class="col-xs-8 col-sm-4 col-md-4">
+        </article>
+        <article class="col-xs-8 col-sm-4 col-md-4">
           <img class="img-responsive center-block"
             src="img/bokeh_large_600w.jpg"
             sizes="(max-width: 767px) 80vw, (min-width: 768px) 33vw"
             srcset="img/bokeh_large_600w.jpg 600w, img/bokeh_small_300w.jpg 300w"
-            tag="bokeh">
+            alt="bokeh">
           <h3 class="text-uppercase">Bokeh</h3>
           <a href="https://github.com/udacity/Bokeh/">See me in GitHub</a>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in mauris quis velit pulvinar ornare. Vivamus eleifend tempor mattis. Sed auctor blandit velit, eu vestibulum orci eleifend id. Cras arcu.</p>
-        </div>
-      </div>
+        </article>
+      </section>
     </div>
   </body>
