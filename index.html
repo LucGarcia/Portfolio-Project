@@ -1,15 +1,23 @@
+<!--Indicate document type (html5) and language-->
 <!DOCTYPE html>
 <html lang=en>
   <head>
+    <!--set character encoding to utf-8-->
     <meta charset="utf-8">
+    <!--define viewport for responsiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jane Doette Portfolio</title>
+    <!--import font family-->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <!--link to bootstrap styles-->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!--link to project specific styles-->
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <!--create a wrapper for the content-->
     <div class="container">
+      <!--header section with logo and titles-->
       <div id="header" class="row">
         <div class="col-xs-2 col-sm-2 col-md-2">
           <img class="img-responsive img-logo" src="img/udacity.svg" tag="udacity logo">
@@ -18,23 +26,25 @@
           <h1 class="header-title name-title">Jane Doette</h1>
           <h4 class="header-title">Front-end Ninja</h4>
         </div>
-      <div>
+      <!--line to separate header-->
         <div class="col-md-12">
           <hr>
         </div>
       </div>
-      </div>
+      <!--main image-->
       <div id="img-main" class="row">
         <div class="col-md-12">
           <img class="img-responsive" src="img/css.jpg"
             srcset="img/css_large_1100w.jpg 1100w, img/css_medium_900w.jpg 900w, img/css_small_600w.jpg 600w"
             tag="writing CSS code">
       </div>
+      <!--title for featured works-->
       <div class="row">
         <div class="col-md-12">
           <h2 class="featured-title">Featured Work</h2>
         </div>
       </div>
+      <!--different apps with image, name, GitHub link and description text-->
       <div id="featured-apps" class="row featured-box text-center">
         <div class="col-xs-8 col-sm-4 col-md-4">
           <img class="img-responsive center-block"
